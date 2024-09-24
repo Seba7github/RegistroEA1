@@ -1,0 +1,17 @@
+ion-content {
+    background-image: url('/assets/images/pexels-lazybird-1260727.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 100%;
+    --padding-top: 20px;
+    --padding-bottom: 20px;
+    --padding-end: 20px;
+    --padding-start: 20px;
+    --ion-color-primary: #F1B634;
+    
+}
+
+ion-item {
+    --padding-bottom: 10px;
+}
+

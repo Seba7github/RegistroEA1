@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Escanear QR Code</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button expand="full" (click)="scanQRCode()">Escanear QR Code</ion-button>
+
+  <div *ngIf="scannedData">
+    <h2>Datos Escaneados:</h2>
+    <p>{{ scannedData.text }}</p>
+  </div>
+</ion-content>

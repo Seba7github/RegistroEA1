@@ -1,0 +1,52 @@
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-content {
+  background-image: url('/assets/images/pexels-lazybird-1260727.jpg');
+  background-size: cover; 
+  background-position: center; 
+  height: 100%;
+  --padding-top: 20px;
+  --padding-bottom: 20px;
+  --padding-end: 20px;
+  --padding-start: 20px;
+  --ion-color-primary: #F1B634;
+
+}
+ion-toolbar {
+  background-size: cover; 
+  background-position: center; 
+  height: 100%;
+  --padding-top: 20px;
+  --padding-bottom: 20px;
+  --padding-end: 20px;
+  --padding-start: 20px;
+  --ion-color-primary: #132CAA;
+}
+ion-header {
+  --ion-color-primary: #132CAA;
+}
